@@ -1,0 +1,13 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class mergeSort<E> {
+	public static void main(String[] args) {
+		
+	}
+	
+    void mergeSort(ArrayList<E> a){
+    	
+    }
+}

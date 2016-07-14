@@ -1,0 +1,31 @@
+package Array;
+
+public class insertionSort {
+public static void main(String[] args) {
+	int[] a = {9,3,6,4,8,2};
+	insertionSort b = new insertionSort();
+	a = b.insertionSort(a);
+	for(int i=0;i<a.length;i++){
+		System.out.print(a[i] + " ");
+	}
+}
+
+int[] insertionSort(int[] a){
+	for(int i=0;i<a.length-1;i++){
+		if(a[i+1]<a[i]){
+			int temp = a[i+1];
+			a[i+1] = a[i];
+			a[i] = temp;
+		}
+		for(int j=0;j<=i;j++){
+			if(a[j+1]<a[j]){
+				int temp = a[j+1];
+				a[j+1] = a[j];
+				a[j] = temp;
+			}
+		}
+	}
+	return a;
+}
+
+}

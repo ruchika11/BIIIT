@@ -1,0 +1,10 @@
+package Array;
+
+public class mergeSort {
+public static void main(String[] args) {
+	
+}
+void mergeSort(int[] a){
+	
+}
+}

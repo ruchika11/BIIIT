@@ -1,0 +1,24 @@
+package Array;
+
+public class transposeMatrix {
+public static void main(String[] args) {
+	int[][] a= {{1,2,3},{4,5,6},{7,8,9}};
+	int[][] b = transposeMatrix(a);
+	for(int i=0;i<b[0].length;i++){
+		for(int j=0;j<b[1].length;j++){
+			System.out.print(b[i][j]+" ");
+		}
+		System.out.println();
+	}
+}
+
+static int[][] transposeMatrix(int[][] a){
+	int[][] b = new int[3][3];
+	for(int i=0;i<a[0].length;i++){
+		for(int j=0;j<a[1].length;j++){
+			b[i][j]=a[j][i];
+		}
+	}
+	return b;
+}
+}

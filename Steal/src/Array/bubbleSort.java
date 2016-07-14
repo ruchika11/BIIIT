@@ -8,7 +8,7 @@ public static void main(String[] args) {
 
 bubbleSort bs = new bubbleSort();
 
-int[] a = {10,3,7,2,1};
+int[] a =  {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1};
 
 bs.bubbleSort(a);
 
@@ -51,5 +51,7 @@ return a;
 
 
 
-//complexity of bubble sort is O(n2)
+//complexity of bubble sort is:
+//worst case and average case complexity is O(n2)
+//this is not better sorting method in case of performance
 

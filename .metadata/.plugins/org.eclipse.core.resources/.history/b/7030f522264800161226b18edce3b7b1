@@ -1,0 +1,30 @@
+package Array;
+
+public class binarySearch {
+public static void main(String[] args) {
+	binarySearch b = new binarySearch();
+	int[] a = {7,8,9,10};
+	b.binarySearch(a,9);
+}
+void binarySearch(int[] a,int n){
+	int first = 0;
+	int last = a.length-1;
+	while(first<=last){
+		int middle = (first+last)/2;
+		if(a[middle] == n){
+			System.out.println("position is " + middle);
+			break;
+		}
+		else if(n>a[middle]){
+			first = middle+1;
+		}
+		else{
+			last = middle-1;
+		}
+		
+	}
+	if(last<first){
+		System.out.println("not found");
+	}
+}
+}

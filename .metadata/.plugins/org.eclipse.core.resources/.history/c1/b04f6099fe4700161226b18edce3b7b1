@@ -1,0 +1,27 @@
+package Array;
+
+public class selectionSort {
+public static void main(String[] args) {
+	int[] a = {9,3,6};
+	selectionSort b = new selectionSort();
+	a = b.selectionSort(a);
+	for(int i=0;i<a.length;i++){
+		System.out.print(a[i] + " ");
+	}
+}
+
+int[] selectionSort(int[] a){
+	for(int i=0;i<a.length;i++){
+		int min = a[i];
+		for(int j=i+1;j<a.length;j++){
+			if(a[j]<a[i]){
+				min = a[j];
+			}
+		}
+		int temp = a[i];
+		a[i] = min;
+		min = temp;
+	}
+	return a;
+}
+}
