@@ -1,0 +1,20 @@
+package classes;
+
+public class constructor {
+	int c ;
+public static void main(String[] args) {
+	constructor a = new constructor();
+}
+constructor() {
+	System.out.println("hi");
+}
+constructor(int a){
+	this();
+	System.out.println("a is "+a);
+	
+}
+constructor(int a,int b){
+	this(10);
+	System.out.println(" a and b is "+a+" and " + b);
+}
+}

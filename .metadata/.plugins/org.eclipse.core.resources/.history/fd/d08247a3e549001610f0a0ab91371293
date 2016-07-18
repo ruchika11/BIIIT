@@ -1,0 +1,43 @@
+package Methods;
+
+public class fibonacciUsingReaccursion {
+	static int n = 1;
+	static int m = 0;
+	public static void main(String[] args) {
+		int a = fibonacciTerm(5);
+		System.out.println(a);
+	}
+	static void fibonacci(int a){
+		for(int i=2;i<=a;i++){
+			int s = m+n;
+			System.out.print(s+" ");
+			m=n;
+			n=s;
+		}
+	}
+
+	static int fibonacciR(int a){
+		if(a-2<=0){
+			return 0;
+		}
+		else{
+			int s = m+n;
+			System.out.print(s+" ");
+			m=n;
+			n=s;
+			return fibonacciR(a-1);
+		}
+
+	}
+	
+	static int fibonacciTerm(int n){
+		if(n==0||n==1){
+			return n;
+		}
+		else
+		{
+			return fibonacciTerm(n-1)+fibonacciTerm(n-2);
+		}
+		
+	}
+}

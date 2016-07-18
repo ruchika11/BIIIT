@@ -1,0 +1,13 @@
+package Inheritence;
+
+class simple  extends A{
+public static void main(String[] args) {
+	
+	System.out.println(new A().i);
+}
+}
+
+class A {
+	
+	int i;
+}

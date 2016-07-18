@@ -1,0 +1,32 @@
+package Inheritence;
+
+import java.io.IOException;
+
+class simple{
+	public static void main(String[] args) {
+	
+		
+	B a =	new B();
+	a.m1();
+	}
+}
+
+
+
+
+
+
+class A {
+	
+public void m1(){
+	 System.out.println("from A ");
+ }
+	
+}
+class B  extends A {
+	
+  public void m1(){
+	System.out.println("From B ");
+}
+}
+

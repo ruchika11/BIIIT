@@ -1,0 +1,22 @@
+package Inheritence;
+
+class simple{
+	public static void main(String[] args) {
+	new B().m1();
+	}
+}
+
+class A{
+	int a;
+	void m2(){
+		System.out.println("hi");
+		
+	}
+}
+class B extends A{
+void m1(){
+	super.a=10;
+	super.m2();
+	System.out.println(a);
+}
+}

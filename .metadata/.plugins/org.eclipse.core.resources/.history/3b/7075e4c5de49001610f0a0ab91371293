@@ -1,0 +1,15 @@
+package Methods;
+
+public class powerUsingRecursion {
+public static void main(String[] args) {
+	
+}
+static int power(int a,int n){
+	if(a==0){
+		return 0;
+	}
+	else{
+		return power();
+	}
+}
+}
