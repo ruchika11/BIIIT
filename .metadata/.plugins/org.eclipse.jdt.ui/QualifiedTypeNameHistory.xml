@@ -3,6 +3,10 @@
 <fullyQualifiedTypeName name="Array.selectionSort"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="Array.binarySearch"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="Methods.varArgs"/>
+<fullyQualifiedTypeName name="classes.constructor"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
 </qualifiedTypeNameHistroy>

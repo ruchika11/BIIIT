@@ -1,0 +1,10 @@
+package final_;
+
+public class ChessAlgorithm {
+	
+	public enum ChessPlayer { WHITE, BLACK }
+	
+	final ChessPlayer getFirstPlayer() {
+        return ChessPlayer.WHITE;
+    }
+}

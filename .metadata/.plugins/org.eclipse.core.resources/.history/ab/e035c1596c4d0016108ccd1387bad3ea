@@ -1,0 +1,20 @@
+package polymorphism;
+
+public class superConcept extends Superclass{
+	// overrides printMethod in Superclass
+    public void printMethod() {
+        super.printMethod();
+        System.out.println("Printed in Subclass");
+    }
+    public static void main(String[] args) {
+    	superConcept s = new superConcept();
+        s.printMethod();    
+    }
+}
+
+class Superclass {
+
+    public void printMethod() {
+        System.out.println("Printed in Superclass.");
+    }
+}

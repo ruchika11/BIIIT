@@ -1,0 +1,22 @@
+package Interface;
+
+public interface I1{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//An interface is a reference type,similar to a class that can only contain constants,method signatures,default methods,static methods,
+// and nested types
+//method bodies only exist for default and static methods
+//Interface can not be instantiated ,they can only be implemented and extend by other class.

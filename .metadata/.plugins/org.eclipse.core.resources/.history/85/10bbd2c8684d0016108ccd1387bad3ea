@@ -1,0 +1,30 @@
+package Inheritence;
+
+public class returnTypeOverride extends A {
+public static void main(String[] args) {
+	
+}
+
+returnTypeOverride myName(){
+	return new returnTypeOverride(); //in sub
+}
+
+returnTypeOverride yourName(){
+	return new returnTypeOverride();
+}
+
+}
+
+class A{
+	A myName(){
+		return new A();
+	}
+	
+	returnTypeOverride yourName(){
+		return new returnTypeOverride();
+	}
+}
+
+class B{
+	
+}

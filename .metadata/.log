@@ -1388,3 +1388,49 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp
 
 !ENTRY org.eclipse.core.net 1 0 2016-07-14 20:58:51.700
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-07-18 16:41:20.504 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/ruchika.sancheti/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.standard.product -keyring /Users/ruchika.sancheti/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-07-18 16:41:28.261
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:34:42.230
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@13401d7)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@bb1888)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:34:42.231
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@13401d7)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@bb1888)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:34:42.231
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@2ea32d)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@7883df)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:34:42.232
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@2ea32d)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@7883df)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:35:23.334
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@140da58)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@13401d7)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:35:23.334
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@140da58)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@13401d7)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:35:23.335
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@7883df)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@1dcbdc9)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:35:23.335
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@7883df)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@1dcbdc9)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:36:08.539
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@1d27ef8)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@13401d7)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:36:08.540
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@1d27ef8)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@13401d7)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:36:08.541
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@10a0bf5)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@7883df)}
+
+!ENTRY org.eclipse.ui 4 4 2016-07-19 09:36:08.541
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@10a0bf5)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@7883df)}
